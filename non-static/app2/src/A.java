@@ -1,0 +1,32 @@
+class A 
+{
+	A()
+	{
+         System.out.println("from A()");
+	}
+	public static void main(String[] args) 
+	{
+		A a1 = new A();
+		System.out.println("done");
+	}
+}
+// what is constructor?
+// it is a special type of method, but its not a regular method, internally compiler will be considering it a method
+// the main difference btw a method and a constructor is that method must have a return type but constructor must not have a return type
+// they r mainly used for initializing objects
+// in each and every class if there is no constructor defined by the programmer then compiler obly keeps a default constructor which is no argument constructor(it does not take any argument)
+/*
+default constructor be like
+A()
+{
+}
+rules for constructor----
+ 1. constructor name must be same as class name(which is case sensitive)
+ 2. it must not have a return type
+ 3. constructors must be having a body. {}. they cannot be abstract
+some general points------
+ 4. constructors must have access specifiers or access modifiers
+ 5. it can take any no of arguments
+ 6. they r executed while creating objects for that particular class.
+ 7. 
+*/

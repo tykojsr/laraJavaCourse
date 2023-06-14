@@ -1,0 +1,32 @@
+class C 
+{
+	void test1()
+	{
+		System.out.println("from test1");
+	}
+
+}
+class D extends C
+{
+	void test2()
+	{
+		System.out.println("fron test2");
+	}
+
+	public static void main(String[] args) 
+	{
+		C c1 = new C();
+		c1.test1();
+		c1.test2();
+		
+	}
+}
+/*
+// object for one class can be made in other class. no issues. 
+// but with c1 reference variable we can only call test1() and not test2()
+// compilation error because class D extends class C, it means class D has all the members of class C, so if we create
+   an object for D class, its reference variable can be used to call both the methods. class C does not extend class D so
+   all the members of class D is not inside class C, so if we create an object of class C,we can call only test1() by
+   using its reference variable.
+   */
+

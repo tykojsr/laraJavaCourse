@@ -1,0 +1,12 @@
+import java.util.Arrays;
+class A4
+{
+		public static void main(String[] args) 
+	{
+         int [] arr = new int[5];
+		 a[array.length-1] = 27;
+
+		 System.out.println("element:" + a[array.length-1]);
+		
+	}
+}

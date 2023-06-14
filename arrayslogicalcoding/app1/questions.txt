@@ -1,0 +1,21 @@
+1.  Write a java programme to create an integer array with 10 locations ,store 35 in the first location. Also display the element.
+
+2.  Write a java programme to create an Byte array with 5 locations ,Accept 2 numbers from the user and store first number in 2 nd location , and 2 number in 3rd position . add both numbers and display the sum.
+
+3.  define an integer array with 10 blocks.store 25 in the 1st position and store 45 in the 4th position and display those elements.
+
+4.  define an integer array with 5 blocks.Store 27 in the last location and display the same. 
+
+5.  define an integer array with 10 blocks.store 200 in the last location and store 34 in the last but one location and display both the elements.
+
+6.  define an integer array with 11 locations. store 37 in the middle location and display the same.
+
+7.  create an integer array with 14 locations. store 41 in the mid position. store 76 in the mid-3 position.store 65 in the mid+2 position.display all the elements.also find the sum of all those elements and display the result.
+
+8.  initialise a string array which contains 5 city names. display only 3rd city by adding prefix "welcome to "
+
+9.  create a byte array with 6 blocks.store any number between -128 to +127 in the mid+1 position. assign the element by creating an integer array with 7 blocks and store the element in the mid-1 position. display both the elements.
+
+10.  create an integer array with 4 blocks.store any no between  70 to 110 in the last location.assign that element by creating a character array with 3 blocks and store the element in 1st position.display both elements.
+
+11.  

@@ -1,0 +1,14 @@
+import java.util.*;
+class A9 
+{
+	public static void main(String[] args) 
+	{
+		byte [] b = new byte[6];
+		b[3]= 100;
+		int[] a = new int[7];
+		a[2]= b[3];
+        System.out.println("final" + Arrays.toString(a));
+        System.out.println("final" + Arrays.toString(b));
+		System.out.println("byte , int :" + b[3] +"," + a[2]);
+	}
+}

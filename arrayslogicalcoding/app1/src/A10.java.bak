@@ -1,0 +1,14 @@
+import java.util.*;
+class A10 
+{
+	public static void main(String[] args) 
+	{
+		int [] a = new byte[4];
+		a[3]= 100;
+		char[] c = new int[3];
+		c[0]= a[3];
+        System.out.println("final" + Arrays.toString(a));
+        System.out.println("final" + Arrays.toString(c));
+		System.out.println("int value, char value :" + a[3] +"," + c[0]);
+	}
+}

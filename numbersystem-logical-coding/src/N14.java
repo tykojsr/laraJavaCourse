@@ -1,0 +1,16 @@
+class N14 
+{
+	public static void main(String[] args) 
+	{
+		int i , j = 0;
+		for (i = 35679087; i != 0 ;i /= 10 )
+		{
+			if (i % 2 !=0)
+			{
+				j++;
+			}
+		}
+
+		System.out.println(" odd no of digits are" + j);
+	}
+}

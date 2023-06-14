@@ -1,0 +1,14 @@
+import java.util.Arrays;
+class A3
+{
+		public static void main(String[] args) 
+	{
+         int [] a = new int[10];
+		 a[0] = 25;
+		 a[3] = 45;
+
+		 System.out.println("final:" + Arrays.toString(a));
+		 System.out.println("element:" + a[0] + "," + a[3]);
+		
+	}
+}

@@ -1,0 +1,21 @@
+class E
+{
+	{
+		System.out.println("IIB1");
+	}
+	E(int i)
+	{
+		System.out.println("from E(int)");
+	}
+	public static void main(String[] args) 
+	{
+		E e1 = new E(90);
+		System.out.println("--------");
+		E e2 = new E(30);
+		System.out.println("--------");
+	}
+	{  
+		System.out.println("IIB2");  // it should be kept outside any method but inside class.. try to keep it inside main method and see the difference
+	}
+	
+}

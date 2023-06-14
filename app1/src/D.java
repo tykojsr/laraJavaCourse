@@ -1,0 +1,18 @@
+class D 
+{
+	public static void main(String[] args) 
+	{
+		int i = -10;
+		System.out.println(i);
+		i = 0;
+		System.out.println(i);
+		i = 0;
+		i = -30;
+		i = 90000;
+		System.out.println(i);
+		i = i + 20000;
+		System.out.println(i);
+		i = i - 70000;
+		System.out.println(i);
+	}
+}

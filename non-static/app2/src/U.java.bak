@@ -1,0 +1,20 @@
+class U
+{
+	U()
+	{
+		this(10);
+		System.out.println("U()");
+	}
+	U(int i)
+	{
+		this();                            
+		System.out.println("U(int)");                         
+	}
+	public static void main(String[] args) 
+	{
+		T t1 = new T();
+		System.out.println("--------");
+		T t2 = new T(10);
+		System.out.println("--------");
+	}
+}

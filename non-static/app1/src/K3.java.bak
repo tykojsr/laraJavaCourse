@@ -1,0 +1,10 @@
+class K3
+{
+	int i;
+	static
+	{
+		
+		System.out.println("static: "+ k3.i);  // til  now object is nt created
+	}
+	static K3 k3 = new K3();
+}

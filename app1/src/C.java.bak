@@ -1,0 +1,14 @@
+class C 
+{
+	public static void main(String[] args) 
+	{
+		int i = 1;
+		System.out.println(i);
+		i = 20;
+		System.out.println(i);
+		i = 40;
+		System.out.println(i);
+		i = 51;
+		System.out.println(i);
+	}
+}

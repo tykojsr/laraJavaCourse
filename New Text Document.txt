@@ -1,0 +1,11 @@
+app10:-   if-else block inside if block
+app11:-   if-else block inside else block
+app12"-   project basics
+app13:-   project basics
+app15:-   ternary operators
+app16:-   logical coding(display patterns)
+app18:-   break and continue, nested loop
+app20:-   while loop
+appp21:-  methods
+app25:-   switch cases
+app26:-   non statics

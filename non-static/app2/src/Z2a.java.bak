@@ -1,0 +1,10 @@
+class Z2a
+{
+	static Z2a()
+	{
+		this();
+	}
+	Z2a()
+	{
+	}
+}

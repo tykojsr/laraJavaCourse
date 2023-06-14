@@ -1,0 +1,21 @@
+package pack1;
+class  A 
+{
+	private int i;
+	public static void main(String[] args) 
+	{
+		A a1 = new A();
+		System.out.println(a1.i);
+	}
+}
+/*
+// we have 4 access specifiers
+//private || default || protected || public
+// the narrowest is private
+// we have access specifiers for security purposes
+// we can have control over the data, which one should be shared and which one should not be over package structure
+// access specifiers == access modifiers
+// access specifiers in java maintains the accessibility or scope of a field, method, constructor or class.
+// default access specifier is also knowm as package or friendly
+    default == package == friendly
+*/

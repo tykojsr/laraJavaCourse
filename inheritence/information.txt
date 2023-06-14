@@ -1,0 +1,7 @@
+app1-  "is-a" type inheritence
+app2-  it is "has-a" type of composition         (differenr from inheritence)
+
+
+"is-a" can be achieved through inheritence concept
+
+"has-a" can be achieved through composition

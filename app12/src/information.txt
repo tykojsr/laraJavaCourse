@@ -1,0 +1,3 @@
+com== profitable company
+org== non profitable organisation
+inside com folder, name of the company or organisation.

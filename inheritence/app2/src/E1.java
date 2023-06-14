@@ -1,0 +1,27 @@
+class A
+{  
+	int i ;
+	void test1()
+	{
+		System.out.println("A-test1");
+	}
+}
+class E
+{
+	static A obj = new A();        // E has A class object                          // this type of variable is having default value as null       
+	void test2()
+	{
+		System.out.println("D-test2");
+		System.out.println(obj.i);
+		obj.test1();
+	}
+		
+	public static void main(String[] args) 
+	{
+		E e1 = new E();
+	    e1.test2();
+		System.out.println(obj);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Arrays;
+class A7
+{
+		public static void main(String[] args) 
+	{
+		 int sum = 0;
+         int [] a = new int[14];
+		 a[6] = 41;
+		 a[3] = 76;
+		 a[8] = 65;
+         sum =  a[6] + a[8] + a[3]; 
+         System.out.println("final:" + Arrays.toString(a));
+		 System.out.println("element:" + a[6] + "," + a[3] + "," + a[8]);
+		 System.out.println("sum is: " + sum);
+		
+	}
+}
+// (0 + 13)/2 = 6  => mid value
+// mid -3 => 3
+//mid + 2 => 8
+/*
+mid value = (low + high) divided by 2
+if its decimal value then ignore the decimal part
+*/

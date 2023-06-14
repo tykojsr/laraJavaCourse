@@ -1,0 +1,16 @@
+class L
+{
+    void test()
+    {
+		System.out.println("Hello World!");
+
+		
+	}
+	static
+	{
+		L obj = new L();
+		obj.test();
+	}
+
+	
+}

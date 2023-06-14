@@ -1,0 +1,2 @@
+whenever class is loaded , all the static members r initialised to their value.    loading.....initialising....executing.....  is  the static members
+* in java only one or no public class is allowed.a single file cannot have 2 classes.

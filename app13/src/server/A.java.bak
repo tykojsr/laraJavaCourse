@@ -1,0 +1,10 @@
+package server;
+class A
+{
+}  
+{
+	public static test()
+	{
+		System.out.println("from server.A");
+	}
+}

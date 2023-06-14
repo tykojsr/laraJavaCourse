@@ -1,0 +1,17 @@
+class F 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		i = 1;
+		System.out.println(i);
+		i = 2;
+		System.out.println(i);
+		i = 3;
+		System.out.println(i);
+		i = 600;
+		System.out.println(i);
+		i = i / 20;
+		System.out.println("Hello World!");
+	}
+}

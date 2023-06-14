@@ -1,0 +1,58 @@
+class A 
+{
+	// data menbers
+	private String name;
+	private int rollNumber;
+	private int age;
+
+	// read-only //getter methods
+	// getter and setter methods must be declared as public
+	public String getName()
+	{
+		return name;   //this.name;
+	}
+	public int getRollNumber()
+	{
+		return rollNumber;   //this.rollNumber;
+	}
+	public int getAge()
+	{
+		return age;   //this.age;
+	}
+
+	// write-only //setter method
+
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public void setrollNumber(int rollNumber)
+	{
+		this.rollNumber = rollNumber;
+	}
+	public void setage(int age)
+	{
+		this.age = age;
+	}
+
+}
+class Driverclass
+{
+     public static void main(String[] args) 
+	{
+		 A a1 = new A();                                   
+		 System.out.println(a1.getName());
+		 System.out.println(a1.getRollNumber());
+		 System.out.println(a1.getAge());
+		 System.out.println("--------------------------");
+		 a1.setName("ashish");
+		 a1.setRollNumber(007);
+		 a1.setage(28);
+		 System.out.println(a1.getName());
+		 System.out.println(a1.getRollNumber());
+		 System.out.println(a1.getAge());
+
+	}
+}
+// static and non static varables = data members (data)
+// static and non static methods = member functions (code)

@@ -1,0 +1,14 @@
+class F
+{
+	int i;
+	F(int i)
+	{
+		i = 10;                                    // this i is local to constructor block
+        System.out.println("F(int)");              // supply an argument and check for the value of i
+	}
+	public static void main(String[] args) 
+	{
+		F f1 = new F(10);
+		System.out.println(f1.i);
+	}
+}

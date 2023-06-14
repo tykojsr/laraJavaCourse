@@ -1,0 +1,16 @@
+class K2
+{
+	int i;
+	static K2 k2 = new K2();
+	static
+	{
+		
+		System.out.println(k2.i);
+	}
+	public static void main(String[] asgs)
+	{
+        System.out.println("main: " + k2.i);
+	}
+}
+
+

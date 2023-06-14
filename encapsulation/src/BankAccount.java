@@ -1,0 +1,29 @@
+class BankAccount 
+{
+	// encapsulating the balance amount //making it hidden from other classes
+	private double balance;
+	public double getBalance()
+	{
+		return balance;
+	}
+	public void setDeposit(double amount)
+	{
+		this.balance += amount;
+	}
+	public void setWithdraw(double amount)
+	{
+		this.balance -= amount;
+	}
+}
+class BankAccountDriver
+{
+	public static void main(String[] args) 
+	{
+		BankAccount account = new BankAccount();
+		System.out.println("Balance initial: " + account.getBalance());
+		account.deposit(1000);
+		System.out.println("Balance after deposit: " + account.getBalance());
+		account.setwithdraw(500);
+		System.out.println("Balance after withdraw " + account.getBalance());
+	}
+}

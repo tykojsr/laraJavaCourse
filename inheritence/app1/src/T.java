@@ -1,0 +1,37 @@
+class A 
+{
+	static 
+	{
+		System.out.println("A- SIB");
+	}
+}
+class B extends A
+{
+	static
+	{
+		System.out.println("B- SIB");
+	}
+}
+class C extends B
+{
+	static 
+	{
+		System.out.println("C- SIB");
+	}
+}
+class Z11
+{
+	static 
+	{
+		System.out.println("Z11- SIB");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		A a1 = new A();
+        System.out.println("main end");
+	}
+}
+ // since Z11 has no dependency on any other class so first it will load into the memory, after that object of class A is
+ // created. so class A will load in the memory.
+
